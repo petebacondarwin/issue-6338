@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      name="contactx"
+      method="POST"
+      action="http://localhost:8788/api/contact"
+    >
+      <input name="name" value="testing 1 post request" />
+      <input name="email" value="somthing@some.com" /> <input type="submit" />
+    </form>
+    <form
+      name="contactx2"
+      method="GET"
+      action="http://localhost:8788/api/contact"
+    >
+      <input name="name" value="testing 1 get request" />
+      <input name="email" value="somthingelse@some.com" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
